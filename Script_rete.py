@@ -5,12 +5,12 @@
 import csv
 import numpy as np
 import os.path
-PATH_DATASET_AUTO='../Dataset/Acquisizioni/Auto/Conversione/'
-PATH_DATASET_BICI='../Dataset/Acquisizioni/Bici/Conversione/'
-PATH_DATASET_BUS='../Dataset/Acquisizioni/Bus/Conversione/'
-PATH_DATASET_WALK='../Dataset/Acquisizioni/Walk/Conversione/'
-PATH_DATASET_TRAIN='../Dataset/Acquisizioni/Train/Conversione/'
-PATH_DATASET_METRO='../Dataset/Acquisizioni/Metro/Conversione/'
+PATH_DATASET_AUTO='Dataset/Acquisizioni/Auto/Conversione/'
+PATH_DATASET_BICI='Dataset/Acquisizioni/Bici/Conversione/'
+PATH_DATASET_BUS='Dataset/Acquisizioni/Bus/Conversione/'
+PATH_DATASET_WALK='Dataset/Acquisizioni/Walk/Conversione/'
+PATH_DATASET_TRAIN='Dataset/Acquisizioni/Train/Conversione/'
+PATH_DATASET_METRO='Dataset/Acquisizioni/Metro/Conversione/'
 #righe per leggere il file csv
 
 #print(os.path.isfile(PATH_DATASET_AUTO+'Acquisizione{}.csv'.format(j)))
