@@ -33,7 +33,7 @@ def getMatrix(path_dir):
 			j=j+1
 	#print(len(x))
 	#creazione matrice per mettere i record 24 a 24
-	y= np.zeros(((len(x)-24)/12+1, 24*3+1),dtype=float);
+	y= np.zeros(((len(x)-24)/12+1, 24*3+1),dtype=int);
 	riga=0
 	#ciclo per sistemare la matrice
 	for i in range(0, len(x)-23,12):
